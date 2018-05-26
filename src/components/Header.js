@@ -4,11 +4,11 @@ import Logo from '../../images/danlubbers-logo.png'
 
 const Header = ({ siteTitle }) => (
   <div className='header'>
-    <div className='header-content'>
+  
       <img className='header-logo' src={Logo}/>
        
       
-    </div>
+    
   </div>
 )
 
