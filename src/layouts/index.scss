@@ -32,7 +32,7 @@ nav {
 
   .desktop-nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     list-style-type: none;
     margin-right: 20px;
@@ -91,6 +91,9 @@ nav {
   padding: 0px 10px;
   color: $text-color;
   font-family: $font-family;
+  line-height: 25px;
+  letter-spacing: 2px; 
+  padding-bottom: 20px;
   // background-color: yellow;
 }
 
@@ -126,11 +129,13 @@ nav {
 .logo-container {
   // background-color: yellow;
   margin: 0 auto;
+  padding-bottom: 20px;
   width: 90vw;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
   text-align: center;
+  border-bottom: 1px solid #666;
 
   @media (max-width: 768px) {
     grid-template-columns: repeat(3, 1fr);
@@ -139,6 +144,10 @@ nav {
   @media (max-width: 486px) {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+.technology-text {
+  font-size: 1.4em;
 }
 
 .logos {
@@ -153,7 +162,7 @@ nav {
   align-items: center;
   font-family: $font-family;
   color: $text-color;
-  font-size: 1em;
+  font-size: .8em;
   // background-color: red;
 }
 
@@ -169,19 +178,33 @@ nav {
 // }
 .social-media-container {
   margin: 0 auto;
-  width: 90vw;
   display: flex;
   justify-content: center;
   align-items: center;
   // background-color: red;
+
+  @media(max-width: 768px){
+    // background-color: orange;
+    // padding-right: 50px;
+  }
 }
 
+.social-media-container-nested {
+  // background-color: pink;
+  margin: 0 auto;
+
+}
 .social-media {
   width: 20vw;
   margin: 10px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
+  // background-color: blue;
+
+  @media(max-width: 768px){
+    width: 40vw;
+  }
 }
 
 .github svg{
@@ -204,6 +227,35 @@ nav {
 
 .github svg:hover, .linkedin:hover, .instagram:hover, .camera:hover{
   color: $hover-color;
+}
+
+// PROJECTS SECTION
+.projects-container {
+  margin: 0 auto;
+  width: 90vw;
+
+  .personal-project-text {
+    font-family: $font-family;
+    color: $text-color;
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  .arc-clone-text {
+    font-family: $font-family;
+    color: $text-color;
+    font-size: 1.4em;  
+  }
+
+  .arc-tech {
+    font-family: $font-family;
+    color: $text-color;
+    font-size: 1em;
+    letter-spacing: 1px;
+  }
+  section {
+  @extend .arc-tech
+  }
 }
 
 // html {

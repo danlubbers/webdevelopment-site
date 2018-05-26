@@ -17,9 +17,9 @@ import heliconLogo from '../../images/helicon-logo.png'
 export default class Skillset extends Component {
     render() {
         return(
-            <div className='content'>
+            <div className='skillset-content'>
             <div className='full-stack-container'>
-              <h1>FULL STACK WEB DEVELOPER</h1>
+              <h1 className='technology-text'>TECHNOLOGIES</h1>
               {/* <h2 className='skillset'>SKILL SET</h2> */}
             </div>
             <div className="logo-container">
@@ -61,11 +61,15 @@ export default class Skillset extends Component {
               </div>
               <div>
                 <img className='logos' src={postgresLogo} alt='postgres logo'/>
-                <h2 className='logo-text'>POSTGRES</h2>
+                <h2 className='logo-text'>POSTGRESQL</h2>
               </div>
               <div>
                 <img className='logos' src={captureOneLogo} alt='captureOne logo'/>
                 <h2 className='logo-text'>CAPTUREONE</h2>
+              </div>
+              <div>
+                <img className='logos' src={heliconLogo} alt='Helicon Focus logo'/>
+                <h2 className='logo-text'>HELICON FOCUS</h2>
               </div>
               <div>
                 <img className='logos' src={LRLogo} alt='Adobe Lightroom logo'/>
@@ -74,10 +78,6 @@ export default class Skillset extends Component {
               <div>
                 <img className='logos' src={PSLogo} alt='Adobe Photoshop logo'/>
                 <h2 className='logo-text'>ADOBE PHOTOSHOP</h2>
-              </div>
-              <div>
-                <img className='logos' src={heliconLogo} alt='Helicon Focus logo'/>
-                <h2 className='logo-text'>HELICON FOCUS</h2>
               </div>
             </div>  
             </div>

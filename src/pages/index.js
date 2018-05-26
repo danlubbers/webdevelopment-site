@@ -1,6 +1,7 @@
 import React from 'react'
 import Skillset from '../components/Skillset'
 import Bio from '../components/Bio'
+import Projects from '../components/Projects'
 
 
 
@@ -8,10 +9,13 @@ import Bio from '../components/Bio'
 const IndexPage = () => (
     <div>
         <div>
-            <Bio/>
+            <Bio />
         </div>
         <div>
-            <Skillset/>
+            <Skillset />
+        </div>
+        <div>
+            <Projects />
         </div>
     </div>
   

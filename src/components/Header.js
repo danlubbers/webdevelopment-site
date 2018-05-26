@@ -7,8 +7,8 @@ const Header = () => (
     <img className='header-logo' src={Logo}/>   
     <nav>
       <ul className='desktop-nav'>
-        <li>ABOUT</li>
-        <li>WEBDEV</li>
+        {/* <li>ABOUT</li>
+        <li>WEBDEV</li> */}
         <li>CONTACT</li>
       </ul>
     </nav> 

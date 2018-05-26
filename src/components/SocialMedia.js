@@ -7,7 +7,7 @@ import Camera from 'react-icons/lib/fa/camera'
 
 
 const SocialMedia = () => (
-    <div>
+    <div className='social-media-container-nested'>
     {/* <h1 className='social-text'>SOCIAL MEDIA</h1> */}
     <div className='social-media'>
         <div className='github'>
