@@ -1,0 +1,22 @@
+import React, {Component} from 'react'
+import bioImage from '../../images/bio.jpg'
+import SocialMedia from '../components/SocialMedia';
+
+export default class Bio extends Component {
+    render(){
+        
+        return(
+            <div className='bio-container'>
+                <img className='bio-image' src={bioImage} alt='bio photo'/>
+                <div className='social-media-container'>
+                <SocialMedia/>
+                </div>
+                <p className='about-section'>Dan Lubbers is a Full Stack Web Developer with an extensive background as a Photographer/Retoucher for the past 10+ years. He is currently based in Provo, UT, but is moving to Saratoga Springs, NY in the fall of 2018. A love of the outdoors has led Lubbers to places around the world like performing service work in Guatemala and roaming the pyramids of Ancient Egypt.
+  		        Lubbers got his start with Extreme Sports Photography when he was the sole photographer on the La Sportiva Solutions Climbing Tour in 2007 and began shooting for Extreme Sports Editorials and various outdoor companies.
+  		        Lubbers went on to work in Amazon's Largest Photo Studio photographing and retouching for the Jewelry and Watch department. He recently retouched an ad campaign for Tempurpedic. He is also a contributor to Aurora Photos. Lubbers has really delved into a passion for Environmental & Fine Art Portraiture. Wanting to add more to his career and an interest in design and coding led him to Utah, to take a 3 month intense Web Development Bootcamp at DevMountain.
+  		        A love of good coffee usually leads one to find him at local coffee shops working diligently on his work either at home or when traveling.</p>
+            </div>
+        )
+    }
+    
+}
