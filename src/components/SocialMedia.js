@@ -3,6 +3,7 @@ import React from 'react'
 import GitHub from 'react-icons/lib/fa/github'
 import LinkedIn from 'react-icons/lib/fa/linkedin-square'
 import Instagram from 'react-icons/lib/fa/instagram'
+import Camera from 'react-icons/lib/fa/camera'
 
 
 const SocialMedia = () => (
@@ -19,6 +20,10 @@ const SocialMedia = () => (
         </div>
         <div className='instagram'>
             <a href='http://instagram.com/danlubbersphoto' target='_blank'><Instagram />
+            </a>
+        </div>
+        <div className='camera'>
+            <a href='http://danlubbers.com' target='_blank'><Camera />
             </a>
         </div>
     </div>
