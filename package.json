@@ -9,7 +9,8 @@
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-sass": "^1.0.26",
     "react-helmet": "^5.2.0",
-    "react-icons": "^2.2.7"
+    "react-icons": "^2.2.7",
+    "react-mailto": "^0.4.0"
   },
   "keywords": [
     "gatsby"
