@@ -13,9 +13,9 @@ const Header = () => (
         <Mailto  className='contact' email="lubbers.dan@gmail.com" obfuscate={true}><li>CONTACT</li></Mailto>
       </ul>
     </nav> 
-    <div className='mobile-nav'>
+    {/* <div className='mobile-nav'>
       <Hamburger />
-    </div>
+    </div> */}
   </div>
 )
 
