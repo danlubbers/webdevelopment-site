@@ -160,7 +160,12 @@ nav {
 .logos {
   height: 50px;
   margin: 5px 20px;
+  transition: all .2s ease-in-out;
   // background-color: skyblue;
+}
+
+.logos:hover {
+  transform: scale(1.1);
 }
 
 .logo-text {
@@ -246,6 +251,7 @@ nav {
     color: $text-color;
     font-size: 1.4em;
     text-align: center;
+    
   }
 
   .arc-clone-text {
@@ -259,6 +265,8 @@ nav {
     color: $text-color;
     font-size: 1em;
     letter-spacing: 1px;
+    line-height: 20px;
+  
   }
   section {
   @extend .arc-tech
