@@ -29,6 +29,7 @@ export default class Projects extends Component {
                     <p>
                         I chose to clone an e-commerce site. Cloning this site allowed me to showcase that I can take a design and recreate the layout into a full functioning site. I used CSS3/SASS for all of the styling and to make the design mobile responsive for iphone 6, 7, 8 and desktop. I used React.js to build the site with the use of Javascript along with Redux to manage the "state." I used PostgreSQL and Heroku for database management of the products. The Domain is registered and maintained through Hover and the site is hosted on Digital Ocean.
                     </p>
+                    <a href='https://github.com/danlubbers/arcteryx-clone' target='_blank'>GITHUB REPO</a>
                     <div className='screenshots'>
                    <a href='http://arcteryxclone.danlubbers.com' target='_blank'><img data-aos='zoom-in' data-aos-anchor-placement="top-center" className='arc-desk' src={ArcDesk} alt='arcteryx clone desktop screenshot'/></a>
                    <a href='http://arcteryxclone.danlubbers.com' target='_blank'><img data-aos='zoom-in' data-aos-anchor-placement="top-center" className='arc-mobile' src={ArcMobile} alt='arcteryx clone mobile screenshot'/></a>
@@ -45,8 +46,9 @@ export default class Projects extends Component {
                     <p>
                     Our group wanted to clone an e-commerce site. Cloning this site allowed us to showcase that we can take a design and recreate the layout into a full functioning site. We used CSS3/SASS for all of the styling. We used React.js to build the site with the use of Javascript along with Redux to manage the "state." We used PostgresSQL and Heroku for database management of the products. The Domain is registered and maintained through Hover and the site is hosted on Digital Ocean.
                     </p>
+                    <a href='https://github.com/danlubbers/ruffwear-clone' target='_blank'>GITHUB REPO</a>
                     <div className='screenshots'>
-                   <a href='http://ruffdoggies.danlubbers.com' target='_blank'><img data-aos='zoom-in' data-aos-anchor-placement="bottom" className='ruff-desk' src={RuffDesk} alt='arcteryx clone desktop screenshot'/></a>
+                   <a href='http://ruffdoggies.danlubbers.com' target='_blank'><img data-aos='zoom-in' data-aos-anchor-placement="bottom" className='ruff-desk' src={RuffDesk} alt='ruffwear clone desktop screenshot'/></a>
                     </div>
                 </section>
             </div>

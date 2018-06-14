@@ -7,6 +7,12 @@ $hover-color: #df3535;
 body {
   background-color:rgb(70, 79, 88);
 }
+
+a {
+  color: $text-color;
+  text-decoration: none;
+  
+}
 .header {
   margin: 0 auto;
   padding: 15px 10px;
