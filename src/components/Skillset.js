@@ -13,6 +13,9 @@ import JSLogo from '../../images/js-logo.png'
 import reduxLogo from  '../../images/redux-logo.png'
 import nodeLogo from  '../../images/node-logo.png'
 import postgresLogo from '../../images/postgres-logo.png'
+import postman from '../../images/postman.png'
+import express from '../../images/expressjslogo.png'
+import jest from '../../images/jest.svg'
 import captureOneLogo from '../../images/capture-one-logo.png'
 import LRLogo from '../../images/lr-logo.png'
 import PSLogo from '../../images/ps-logo.png'
@@ -80,6 +83,18 @@ export default class Skillset extends Component {
               <div data-aos='fade-up' data-aos-anchor-placement="center-center" data-aos-delay='400'>
                 <img className='logos' src={postgresLogo} alt='postgres logo'/>
                 <h2 className='logo-text'>POSTGRESQL</h2>
+              </div>
+              <div data-aos='fade-up' data-aos-anchor-placement="center-center" data-aos-delay='400'>
+                <img className='logos' src={postman} alt='postman logo'/>
+                <h2 className='logo-text'>POSTMAN</h2>
+              </div>
+              <div data-aos='fade-up' data-aos-anchor-placement="center-center" data-aos-delay='400'>
+                <img className='logos' src={express} alt='express logo'/>
+                <h2 className='logo-text'>EXPRESS</h2>
+              </div>
+              <div data-aos='fade-up' data-aos-anchor-placement="center-center" data-aos-delay='400'>
+                <img className='logos' src={jest} alt='jest logo'/>
+                <h2 className='logo-text'>JEST</h2>
               </div>
               <div data-aos='fade-up' data-aos-anchor-placement="center-center">
                 <img className='logos' src={captureOneLogo} alt='captureOne logo'/>

@@ -23,7 +23,7 @@ const SocialMedia = () => (
             </a>
         </div>
         <div className='camera'>
-            <a href='http://danlubbers.com' target='_blank'><Camera />
+            <a href='http://danlubbersphotographs.com' target='_blank'><Camera />
             </a>
         </div>
     </div>
