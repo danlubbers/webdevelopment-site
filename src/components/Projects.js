@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 // Screenshots
 import ArcDesk from '../../images/arc-clone-desktop.gif'
 import ArcMobile from '../../images/arc-clone-mobile.png'
-import RuffDesk from '../../images/ruffwear-clone-homepage.png'
+import RuffDesk from '../../images/ruffdoggies.gif'
 
 export default class Projects extends Component {
     constructor(props) {
