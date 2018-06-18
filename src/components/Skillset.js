@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 // AOS
-import AOS from 'aos';
+// import AOS from 'aos';
 import 'aos/dist/aos.css';
 // Logos
 import gitLogo from '../../images/git-logo.png'
@@ -27,6 +27,9 @@ export default class Skillset extends Component {
     }
 
     componentDidMount() {
+      const isBrowser = typeof window !== 'undefined';
+      const AOS = isBrowser ? require('aos') : undefined;
+      
       this.aos = AOS;
       this.aos.init({duration: 1000});
   }
