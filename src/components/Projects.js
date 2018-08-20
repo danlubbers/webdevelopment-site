@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import ArcDesk from '../../images/arc-clone-desktop.gif'
 import ArcMobile from '../../images/arc-clone-mobile.png'
 import RuffDesk from '../../images/ruffdoggies.gif'
+import SunnyRa from '../../images/sunny-ra-website-devices.jpg'
 
 export default class Projects extends Component {
     constructor(props) {
@@ -52,6 +53,22 @@ export default class Projects extends Component {
                     <a href='https://github.com/danlubbers/ruffwear-clone' target='_blank'>GITHUB REPO</a>
                     <div className='screenshots'>
                    <a href='http://ruffdoggies.danlubbers.com' target='_blank'><img data-aos='zoom-in' data-aos-anchor-placement="bottom" className='ruff-desk' src={RuffDesk} alt='ruffwear clone desktop screenshot'/></a>
+                    </div>
+                </section>
+
+                    <h1 className='sunny-project-text'>Client Portfolio Site</h1>
+                    <h2 className='sunny-text'>Artist Sunny Ra</h2>
+                    <p className='sunny-tech'>TECH USED: REACT | SASS | JAVASCRIPT 
+                    | NETLIFY | REACT HELMET | GOOGLE ANALYTICS
+                </p>
+                <section>
+                <h3>DETAILS OF PROJECT :</h3>
+                    <p>
+                    Client/Artist, Sunny Ra wanted a complete redesign of her portfolio site. I created the wireframe and designed the layout and color scheme. I photographed her portrait for the 'About' section. I then built her site using Reactjs. I made the site fully responsive using Media Queries in SASS. I used React Helmet so google would be able to crawl her site searching for keywords helping SEO (Seach Engine Optimization). I added Google Analytics so Sunny can track her traffic going to her new site.  
+                    </p>
+                    <a href='https://github.com/danlubbers/sunny-ra' target='_blank'>GITHUB REPO</a>
+                    <div className='screenshots'>
+                   <a href='http://sunny-ra.com' target='_blank'><img data-aos='zoom-in' data-aos-anchor-placement="bottom" className='sunny-desk' src={SunnyRa} alt='sunny ra portfolio site shown on different devices'/></a>
                     </div>
                 </section>
             </div>

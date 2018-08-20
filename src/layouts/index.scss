@@ -332,5 +332,25 @@ nav {
       width: 90vw;
     }
   }
+
+  .sunny-project-text {
+    @extend .personal-project-text;
+  }
+
+  .sunny-text {
+    @extend .arc-clone-text; 
+  }
+
+  .sunny-tech {
+    @extend .arc-tech;
+  }
+
+  .sunny-desk {
+    width: 75vw;
+
+    @media(max-width: 768px){
+      width: 90vw;
+    }
+  }
 }
 
