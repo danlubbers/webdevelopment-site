@@ -56,8 +56,8 @@ export default class Projects extends Component {
                     </div>
                 </section>
 
-                    <h1 className='sunny-project-text'>Client Portfolio Site</h1>
-                    <h2 className='sunny-text'>Artist Sunny Ra</h2>
+                    <h1 className='sunny-project-text'>CLIENT PORTFOLIO SITE</h1>
+                    <h2 className='sunny-text'>ARTIST SUNNY RA</h2>
                     <p className='sunny-tech'>TECH USED: REACT | SASS | JAVASCRIPT 
                     | NETLIFY | REACT HELMET | GOOGLE ANALYTICS
                 </p>
