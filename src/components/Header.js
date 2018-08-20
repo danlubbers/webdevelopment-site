@@ -5,7 +5,7 @@ import Mailto from 'react-mailto'
 
 const Header = () => (
   <div className='header'>
-    <img className='header-logo' src={Logo}/>   
+    <img className='header-logo' src={Logo} alt='header logo'/>   
     <nav>
       <ul className='desktop-nav'>
         {/* <li>ABOUT</li>

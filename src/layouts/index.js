@@ -9,7 +9,7 @@ const Layout = ({ children, data }) => (
   <div>
     <Helmet
       title='Dan Lubbers | Full Stack Web Developer'
-      shortName='Dan Lubbers'
+    
       meta={[
         {author: 'Dan Lubbers'},
         { name: 'description', content: 'Dan Lubbers is a Photographer / Retoucher / Web Developer specializing in Studio and Environmental Portraits in Saratoga Springs, NY.' },
