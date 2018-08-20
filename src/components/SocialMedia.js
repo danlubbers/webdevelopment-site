@@ -11,19 +11,19 @@ const SocialMedia = () => (
     {/* <h1 className='social-text'>SOCIAL MEDIA</h1> */}
     <div className='social-media'>
         <div className='github'>
-            <a href='http://github.com/danlubbers' target='_blank'><GitHub/>
+            <a href='http://github.com/danlubbers' target='_blank' rel="noopener"><GitHub/>
             </a>
         </div>
         <div className='linkedin'>
-           <a href='http://linkedin.com/in/danlubbers' target='_blank'><LinkedIn />
+           <a href='http://linkedin.com/in/danlubbers' target='_blank' rel="noopener"><LinkedIn />
            </a>
         </div>
         <div className='instagram'>
-            <a href='http://instagram.com/danlubbersphoto' target='_blank'><Instagram />
+            <a href='http://instagram.com/danlubbersphoto' target='_blank' rel="noopener"><Instagram />
             </a>
         </div>
         <div className='camera'>
-            <a href='http://danlubbersphotographs.com' target='_blank'><Camera />
+            <a href='http://danlubbersphotographs.com' target='_blank' rel="noopener"><Camera />
             </a>
         </div>
     </div>
