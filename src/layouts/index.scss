@@ -5,7 +5,7 @@ $text-color: #999;
 $hover-color: #df3535;
 
 body {
-  background-color:rgb(70, 79, 88);
+  background-color:rgb(40, 40, 40);
 }
 
 a {
@@ -19,11 +19,10 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
   // background-image: url('../../images/rust-bg.jpg');
   margin-bottom: 10px;
   border-radius: 5px;
-  opacity: .8;
+  // opacity: .8;
 }
 
 .header-logo {

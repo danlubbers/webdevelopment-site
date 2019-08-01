@@ -11,6 +11,7 @@ import css3Logo from '../../images/css3-logo.png'
 import sassLogo from '../../images/sass-logo.svg'
 import JSLogo from '../../images/js-logo.png'
 import reduxLogo from  '../../images/redux-logo.png'
+import gatsbyLogo from  '../../images/gatsby-logo.png'
 import nodeLogo from  '../../images/node-logo.png'
 import postgresLogo from '../../images/postgres-logo.png'
 import postman from '../../images/postman.png'
@@ -19,6 +20,7 @@ import jest from '../../images/jest.svg'
 import captureOneLogo from '../../images/capture-one-logo.png'
 import LRLogo from '../../images/lr-logo.png'
 import PSLogo from '../../images/ps-logo.png'
+import XDLogo from '../../images/adobe-xd-logo.png'
 import heliconLogo from '../../images/helicon-logo.png'
 
 export default class Skillset extends Component {
@@ -57,6 +59,10 @@ export default class Skillset extends Component {
               <div data-aos='fade-up' data-aos-anchor-placement="center-center" data-aos-delay='200'>
                 <img className='logos' src={reactLogo} alt='react logo'/>
                 <h2 className='logo-text'>REACT</h2>
+              </div>
+              <div data-aos='fade-up' data-aos-anchor-placement="center-center" data-aos-delay='200'>
+                <img className='logos' src={gatsbyLogo} alt='gatsby logo'/>
+                <h2 className='logo-text'>Gatsby</h2>
               </div>
               <div data-aos='fade-up' data-aos-anchor-placement="center-center" data-aos-delay='300'>
                 <img className='logos' src={html5Logo} alt='html5 logo'/>
@@ -114,6 +120,10 @@ export default class Skillset extends Component {
               <div data-aos='fade-up' data-aos-anchor-placement="center-center" data-aos-delay='300'>
                 <img className='logos' src={PSLogo} alt='Adobe Photoshop logo'/>
                 <h2 className='logo-text'>ADOBE PHOTOSHOP</h2>
+              </div>
+              <div data-aos='fade-up' data-aos-anchor-placement="center-center" data-aos-delay='300'>
+                <img className='logos' src={XDLogo} alt='Adobe XD logo'/>
+                <h2 className='logo-text'>ADOBE XD</h2>
               </div>
             </div>  
             </div>
