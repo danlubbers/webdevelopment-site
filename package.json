@@ -1,12 +1,10 @@
 {
-  "name": "Dan Lubbers Web Development Site",
-  "description": "Dan Lubbers Web Development Site",
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "aos": "^2.3.0",
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
     "express": "^4.17.1",
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",

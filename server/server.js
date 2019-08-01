@@ -13,7 +13,7 @@ app.use(bodyParser.json())
 app.use(cors())
 
 // This is for the NPM RUN BUILD
-app.use(express.static(__dirname + '/../build'))
+app.use(express.static(__dirname + '/../public'))
 
 // Port
 app.listen(3000, _ => {
