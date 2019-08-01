@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from '../../images/danlubbers-logo.png'
-import Hamburger from 'react-icons/lib/fa/bars'
 import Mailto from 'react-mailto'
 
 const Header = () => (
