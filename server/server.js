@@ -1,9 +1,21 @@
+
+dotenv = require('dotenv').config()
+
 const express = require('express')
-    , config = require('./config')
+    , cors = require('cors')
+    , bodyParser = require('body-parser')
+    , app = new express()
 
-const app = express()
-    , PORT = config.PORT
+ReactDOMServer.renderToString(<Handler />);
+const helmet = Helmet.renderStatic();
 
+app.use(bodyParser.json())
+app.use(cors())
+
+// This is for the NPM RUN BUILD
 app.use(express.static(__dirname + '/../build'))
 
-app.listen(PORT, ()=>console.log(`Server running on port ${PORT}`))
+// Port
+app.listen(3000, _ => {
+    console.log(`Everything is running on PORT 3000`)
+})
