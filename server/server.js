@@ -16,6 +16,6 @@ app.use(cors())
 app.use(express.static(__dirname + '/../public'))
 
 // Port
-app.listen(3000, _ => {
-    console.log(`Everything is running on PORT 3000`)
+app.listen(4250, _ => {
+    console.log(`Everything is running on PORT 4250`)
 })

@@ -68,7 +68,7 @@ export default class Projects extends Component {
                     </p>
                     <a href='https://github.com/danlubbers/sunny-ra' target='_blank' rel="noopener">GITHUB REPO</a>
                     <div className='screenshots'>
-                   <a href='http://sunny-ra.com' target='_blank' rel="noopener"><img data-aos='zoom-in' data-aos-anchor-placement="bottom" className='sunny-desk' src={SunnyRa} alt='sunny ra portfolio site shown on different devices'/></a>
+                   <a href='http://www.sunny-ra.com' target='_blank' rel="noopener"><img data-aos='zoom-in' data-aos-anchor-placement="bottom" className='sunny-desk' src={SunnyRa} alt='sunny ra portfolio site shown on different devices'/></a>
                     </div>
                 </section>
             </div>
