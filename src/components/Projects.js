@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 import ArcDesk from '../../images/arc-clone-desktop.gif'
 import ArcMobile from '../../images/arc-clone-mobile.png'
 import RuffDesk from '../../images/ruffdoggies.gif'
-import SunnyRa from '../../images/sunny-ra-website-devices.jpg'
+import SunnyRa from '../../images/sunny-ra-website-apple-devices-2019.png'
 
 export default class Projects extends Component {
     constructor(props) {
