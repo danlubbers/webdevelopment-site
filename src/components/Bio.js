@@ -8,8 +8,6 @@ export default class Bio extends Component {
         return(
             <div className='bio-container'>
                 <img className='bio-image' src={bioImage} alt='bio photo'/>
-                <a href="https://www.codewars.com/users/danlubbers" target='_blank' rel="noopener noreferrer"><img className='codewars' src="https://www.codewars.com/users/danlubbers/badges/large
-" alt="codewars-api"/></a>
                 <div className='social-media-container'>
                 <SocialMedia/>
                 </div>
