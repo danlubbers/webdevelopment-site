@@ -6,10 +6,10 @@
   "dependencies": {
     "aos": "^2.3.0",
     "express": "^4.17.1",
-    "gatsby": "^1.9.247",
+    "gatsby": "^5.3.3",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
-    "gatsby-plugin-sass": "^1.0.26",
+    "gatsby-plugin-sass": "^6.3.1",
     "react-helmet": "^5.2.0",
     "react-icons": "^2.2.7",
     "react-mailto": "^0.4.0"
